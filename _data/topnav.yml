@@ -7,8 +7,7 @@ topnav:
       external_url: https://drogue.co.uk
     - title: GitHub
       external_url: https://github.com/Drogue-Systems
-    - title: News
-      url: /news
+
 
 #Topnav dropdowns
 topnav_dropdowns:
