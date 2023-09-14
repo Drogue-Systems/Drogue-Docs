@@ -2,7 +2,7 @@ url: drogue-systems.github.io
 baseurl: /Drogue-Docs
 
 
-repository: tomjoht/documentation-theme-jekyll
+repository: Drogue-Systems
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
