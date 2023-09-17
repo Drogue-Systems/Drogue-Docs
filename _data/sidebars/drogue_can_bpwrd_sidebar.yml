@@ -41,46 +41,50 @@ entries:
       url: /drogue_can_bpwrd.html
       output: web, pdf
 
+    - title: Hardware Versions
+      url: /drogue_can_bpwrd_hardware_versions.html
+      output: web, pdf
+
     - title: Pinout
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_pinout.html
       output: web, pdf
 
     - title: Powering the board with 5V or 3.3V
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_low_voltage.html
       output: web, pdf
 
     - title: CAN
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_can.html
       output: web, pdf
 
 
-  - title: Programming
+  - title: CAN-BPWRD Programming
     output: web, pdf
     folderitems:
 
     - title: CAN-BPWRD Programming
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_programming.html
       output: web, pdf
 
     - title: PlatformIO - Installation
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_platformio_install.html
       output: web, pdf
 
     - title: PlatformIO - Changing the Clock Speed
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_platformio_clock.html
       output: web, pdf
 
 
-  - title: Cyphal
+  - title: CAN-BPWRD Cyphal
     output: web, pdf
     folderitems:
 
     - title: CAN-BPWRD Cyphal
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_cyphal.html
       output: web, pdf
 
     - title: Cyphal Example
-      url: /drogue_can_bpwrd.html
+      url: /drogue_can_bpwrd_cyphal_example.html
       output: web, pdf
 
 
