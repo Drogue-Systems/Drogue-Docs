@@ -57,6 +57,10 @@ entries:
       url: /drogue_can_bpwrd_can.html
       output: web, pdf
 
+    - title: Protections & Safeties
+      url: /drogue_can_bpwrd_protections.html
+      output: web, pdf
+
 
   - title: CAN-BPWRD Programming
     output: web, pdf
