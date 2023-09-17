@@ -36,7 +36,7 @@ From this page - the Home page - the side bar will allow you to navigate to any 
 
 ### 3. Alerts
 
-{% include note.html content="Throughout the docs, you will find notes which look like this. These notes point out extra pieces of inforamtion or points of note." %}
+{% include note.html content="Throughout the docs, you will find notes which look like this. These notes point out extra pieces of information or points of note." %}
 
 {% include tip.html content="Tips and tricks may be found in the docs. These are small helpers or less important points and methods preferred by developers at Drogue but are not guaranteed to work best for you." %}
 

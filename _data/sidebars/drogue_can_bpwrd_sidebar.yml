@@ -61,6 +61,10 @@ entries:
       url: /drogue_can_bpwrd_protections.html
       output: web, pdf
 
+    - title: Converter Cables
+      url: /drogue_can_bpwrd_cables.html
+      output: web, pdf
+
 
   - title: CAN-BPWRD Programming
     output: web, pdf
