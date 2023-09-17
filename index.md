@@ -29,6 +29,8 @@ At the top of the page you will find the top navigation bar. The top bar contain
 
 On the left of each page in the docs you will find the navigation side bar. The side bar content will change depending on which page of the docs you are currently on to show relevant options, however the 'Home' tab will alway be present to easily return to this page.
 
+{% include tip.html content="If you cannot see the side navigation bar, check the **Nav toggle** in the top bar. On mobile the side bar will only be visible by opening the menu" %}
+
 From this page - the Home page - the side bar will allow you to navigate to any of the Drogue Systems products. Once you have navigated to a product, the side bar will show links to relevant documentation explaining the setup, operation, etc. of that product.
 
 
@@ -36,8 +38,8 @@ From this page - the Home page - the side bar will allow you to navigate to any 
 
 {% include note.html content="Throughout the docs, you will find notes which look like this. These notes point out extra pieces of inforamtion or points of note." %}
 
-{% include tip.html content="Tips and tricks may be found in the docs. These are less important points or methods preferred by developers at Drogue but are not guaranteed to work best for you." %}
+{% include tip.html content="Tips and tricks may be found in the docs. These are small helpers or less important points and methods preferred by developers at Drogue but are not guaranteed to work best for you." %}
 
-{% include warning.html content="Warnings look like this. Warnings will point out potentially unsafe practices which may damage your equipment or cause harm. *Please note that the **lack** of a warning does not mean a practice is definitely safe.*" %}
+{% include warning.html content="Warnings look like this. Warnings will point out potentially unsafe practices which may damage your equipment or cause harm. *Please note that the **lack** of a warning does not mean a practice is safe.*" %}
 
 {% include important.html content="Important alerts will give you information which you may need to know." %}
