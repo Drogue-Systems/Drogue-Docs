@@ -5,7 +5,7 @@ last_updated: 17/09/23
 tags: [CAN]
 summary: "About the Drogue Docs"
 sidebar: drogue_home_sidebar
-permalink: drogue_about.html
+permalink: drogue_can_devkits.html
 folder: drogue
 ---
 

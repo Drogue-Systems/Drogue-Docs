@@ -9,6 +9,6 @@ permalink: drogue_about.html
 folder: drogue
 ---
 
-DROGUE
+DROGUE ABOUT
 
 {% include links.html %}
