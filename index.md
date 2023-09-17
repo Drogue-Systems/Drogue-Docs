@@ -3,7 +3,7 @@ title: "Welcome to the Drogue Systems Documentation!"
 keywords: Drogue systems documentation homepage
 tags: [getting_started]
 sidebar: drogue_home_sidebar
-permalink: home
+permalink: index.html
 summary: The home page of the docs. This page will explain how to navigate and use the docs effectively.
 ---
 
