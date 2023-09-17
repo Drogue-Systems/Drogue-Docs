@@ -4,7 +4,7 @@ keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Devlopme
 last_updated: 17/09/23
 tags: [CAN]
 summary: "About the Drogue Docs"
-sidebar: drogue_home_sidebar
+sidebar: drogue_can_bpwrd_sidebar
 permalink: drogue_can_bpwrd.html
 folder: drogue_can_bpwrd
 ---

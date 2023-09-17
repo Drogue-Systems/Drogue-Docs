@@ -33,20 +33,53 @@ entries:
       output: web, pdf
 
 
-  - title: CAN Systems
+  - title: CAN-BPWRD Development Board
     output: web, pdf
     folderitems:
 
-    - title: CAN Development Boards
-      url: /drogue_can_devkits.html
+    - title: Overview
+      url: /drogue_can_bpwrd.html
+      output: web, pdf
+
+    - title: Pinout
+      url: /drogue_can_bpwrd.html
+      output: web, pdf
+
+    - title: Powering the board with 5V or 3.3V
+      url: /drogue_can_bpwrd.html
+      output: web, pdf
+
+    - title: CAN
+      url: /drogue_can_bpwrd.html
       output: web, pdf
 
 
-  - title: All Development Kits
+  - title: Programming
     output: web, pdf
     folderitems:
 
-    - title: CAN-BPWRD Development Board
+    - title: CAN-BPWRD Programming
+      url: /drogue_can_bpwrd.html
+      output: web, pdf
+
+    - title: PlatformIO - Installation
+      url: /drogue_can_bpwrd.html
+      output: web, pdf
+
+    - title: PlatformIO - Changing the Clock Speed
+      url: /drogue_can_bpwrd.html
+      output: web, pdf
+
+
+  - title: Cyphal
+    output: web, pdf
+    folderitems:
+
+    - title: CAN-BPWRD Cyphal
+      url: /drogue_can_bpwrd.html
+      output: web, pdf
+
+    - title: Cyphal Example
       url: /drogue_can_bpwrd.html
       output: web, pdf
 
