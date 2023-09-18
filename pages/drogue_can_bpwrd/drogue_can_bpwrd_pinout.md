@@ -9,6 +9,8 @@ permalink: drogue_can_bpwrd_pinout.html
 folder: drogue_can_bpwrd
 ---
 
+<div><br></div>
+
 ### 1.0 Pinout Overview
 
 The CAN-BPWRD development board has 2.54mm pitch male pin headers which are compatible with most standard off-the-shelf 'DuPont' type jumper/breadboard wires.
@@ -22,11 +24,15 @@ The pins on the CAN-BPWRD board can be separated into 3 categories:
 - ***Exposed / Available I/O pins:*** These pins are available on the pin headers for you to use as you please.
 
 
+
 <div><br><br></div>
+
 
 ### 2.0 Not Programmable I/O Pins
 
 #### 2.1 CAN Bus Vin and GND pins
+
+<div><br></div>
 
 The CAN-BPWRD development board has 4 pairs of CAN bus Vin and GND pins exposed; two pairs for each CAN bus.
 
@@ -44,15 +50,28 @@ The CAN bus Vin pins are designed to expect a 24V input - as per the [UCANPHY sp
 
 If you would like to power the CAN-BPWRD development board from a lower voltage supply, please see the [low voltage documentation page](drogue_can_bpwrd_low_voltage.html) for the available options.
 
+
+<div><br><br></div>
+
 #### 2.2 CAN Termination Jumper Pins
+
+<div><br></div>
 
 Each CAN bus has pair of pins labeled 'TERM', these pins are intended to be optionally shorted together using a jumper to add a termination resistor across the CAN data lines.
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_term.jpg" alt="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" max-width="1000"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_term.jpg" alt="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" max-width="700"%}
 
 See the [CAN-BPWRD CAN documentation page](drogue_can_bpwrd_can.html) for more information on this function.
 
+<div><br><br></div>
+
 #### 2.3 5V and 3V3 Enable Jumper Pins
+<div><br></div>
+
+The CAN-BPWRD development board has pins dedicated to connecting and disconnecting the 5V and 3.3V regulators to the rest of the board.
+
+<div><br><br></div>
+
 #### 2.4 General use 5V, 3.3V and GND Pins
 
 ### 3.0 Internally Reserved MCU Pins
