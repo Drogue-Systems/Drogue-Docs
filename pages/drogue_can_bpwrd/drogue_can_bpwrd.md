@@ -11,8 +11,9 @@ folder: drogue_can_bpwrd
 
 ### 1.0 Images
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img1.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board" max-width="600"%}
 {% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img2.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board with D-SUB converter cable" max-width="600"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img1.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board" max-width="600"%}
+
 
 <div><br></div>
 
@@ -75,5 +76,8 @@ The development board weights approximately 12g.
 It measures 53.1mm in width, and 43.8mm in height - when looking at the board top down.
 
 {% include image.html file="drogue_can_bpwrd/CAN-BPWRD_dimensions.jpg" alt="CAN-BPWRD Development Board with annotated dimensions" caption="CAN-BPWRD Development Board with annotated dimensions" max-width="600"%}
+
+
+<div><br><br></div>
 
 {% include links.html %}

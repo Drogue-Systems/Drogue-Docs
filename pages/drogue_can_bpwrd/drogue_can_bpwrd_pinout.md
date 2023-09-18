@@ -76,6 +76,12 @@ The CAN-BPWRD development board has pins dedicated to connecting and disconnecti
 
 ### 3.0 Internally Reserved MCU Pins
 
+<div><br></div>
+
+Internally .....
+
+<div><br></div>
+
 | Pin Name | Assigned Function | Description |
 |-------|--------|---------|
 | PAX | ADCXINX | Read CAN Bus 1 Vin voltage |
@@ -87,5 +93,8 @@ The CAN-BPWRD development board has pins dedicated to connecting and disconnecti
 ### 4.0 Exposed / Available IO Pins
 
 ### 5.0 Using the STM32CubeIDE to Determine Pin Assignments
+
+
+<div><br><br></div>
 
 {% include links.html %}
