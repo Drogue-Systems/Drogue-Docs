@@ -21,6 +21,9 @@ The pins on the CAN-BPWRD board can be separated into 3 categories:
 - ***Internally Reserved Pins:*** I/O Pins on the MCU which have dedicated roles on this board, such as the CAN pins or voltage measurement.
 - ***Exposed / Available I/O pins:*** These pins are available on the pin headers for you to use as you please.
 
+
+<div><br><br></div>
+
 ### 2.0 Not Programmable I/O Pins
 
 #### 2.1 CAN Bus Vin and GND pins
@@ -45,7 +48,7 @@ If you would like to power the CAN-BPWRD development board from a lower voltage 
 
 Each CAN bus has pair of pins labeled 'TERM', these pins are intended to be optionally shorted together using a jumper to add a termination resistor across the CAN data lines.
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_term.jpg" alt="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" max-width="1000"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_term.jpg" alt="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" max-width="1000"%}
 
 See the [CAN-BPWRD CAN documentation page](drogue_can_bpwrd_can.html) for more information on this function.
 
