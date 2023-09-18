@@ -17,9 +17,9 @@ The CAN-BPWRD development board has 2.54mm pitch male pin headers which are comp
 
 The pins on the CAN-BPWRD board can be separated into 3 categories:
 
-- ***Not Programmable I/O Pins***: These are pins such as Vin or GND, which do not provide programmable function.
-- ***Internally Reserved Pins***: I/O Pins on the MCU which have dedicated roles on this board, such as the CAN pins or voltage measurement.
-- ***Exposed / Available I/O pins***: These pins are available on the pin headers for you to use as you please.
+- ***Not Programmable I/O Pins:*** These are pins such as Vin or GND, which do not provide programmable function.
+- ***Internally Reserved Pins:*** I/O Pins on the MCU which have dedicated roles on this board, such as the CAN pins or voltage measurement.
+- ***Exposed / Available I/O pins:*** These pins are available on the pin headers for you to use as you please.
 
 ### 2.0 Not Programmable I/O Pins
 
@@ -27,14 +27,16 @@ The pins on the CAN-BPWRD board can be separated into 3 categories:
 
 The CAN-BPWRD development board has 4 pairs of CAN bus Vin and GND pins exposed; two pairs for each CAN bus.
 
-The two pairs with a bus are directly connected to one another, providing you the means to pass through the bus voltage to other devices in the network.
+The two pairs within a bus are directly connected to one another, providing you the means to pass through the bus voltage to other devices in the network.
 
 By making use of diodes, the two pairs in CAN bus 1 are completely independent from the two pairs in CAN bus 2. This means you are able to connect two different power supplies - even at different voltages - to the board. The development board will take power from either input, providing redundancy if one was to fail.
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_VIN.jpg" alt="Annotated Pinout of CAN bus Vin pins" caption="Annotated Pinout of CAN bus Vin pins" max-width="1000"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_VIN.jpg" alt="Annotated Pinout of CAN Vin Pins" caption="Annotated Pinout of CAN Vin Pins with Representative Schematic" max-width="1000"%}
 
-#### 2.2 CAN Bus Term Pins
-#### 2.3 5V and 3V3 Enable Pins
+{% include warning.html content="Take care to not connect 2 different power supplies to the same CAN bus" %}
+
+#### 2.2 CAN Termination Jumper Pins
+#### 2.3 5V and 3V3 Enable Jumper Pins
 #### 2.4 General use 5V, 3.3V and GND Pins
 
 ### 3.0 Internally Reserved MCU Pins
