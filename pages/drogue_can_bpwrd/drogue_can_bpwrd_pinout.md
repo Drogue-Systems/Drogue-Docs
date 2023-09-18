@@ -47,8 +47,8 @@ By making use of diodes, the two pairs in CAN bus 1 are independent from the two
 The CAN bus Vin pins are designed to expect a 24V input - as per the [UCANPHY specification](drogue_can_bpwrd_cyphal.html). However, the acceptable range has been widened to allow ~6.5V* to 40V.
 
 {% include important.html content="*Inputs as low as 6.5V have been shown to work in testing, however they may become unstable depending on peripheral current draw due to the increased voltage drop across some components" %}
+{% include important.html content="If you would like to power the CAN-BPWRD development board from a lower voltage supply, please see the [low voltage documentation page](drogue_can_bpwrd_low_voltage.html) for the available options." %}
 
-If you would like to power the CAN-BPWRD development board from a lower voltage supply, please see the [low voltage documentation page](drogue_can_bpwrd_low_voltage.html) for the available options.
 
 
 <div><br><br></div>

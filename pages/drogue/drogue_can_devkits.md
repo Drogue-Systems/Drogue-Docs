@@ -13,6 +13,8 @@ folder: drogue
 
 ### 1.0 Overview
 
+<div><br></div>
+
 Drogue Systems is developing a range of CAN enabled development boards and kits, this page lists the products currently available and links to their respective documentation pages.
 
 <div><br><br></div>
