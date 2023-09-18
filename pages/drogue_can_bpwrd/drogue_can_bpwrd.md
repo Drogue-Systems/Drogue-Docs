@@ -1,7 +1,7 @@
 ---
 title: CAN-BPWRD | Dual CAN FD Development Board
 keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Devlopment Board, Dev Board
-last_updated: 17/09/23
+last_updated: 18/09/23
 tags: [CAN]
 summary: "This page contains an overview of the CAN-BPWRD Development Board."
 sidebar: drogue_can_bpwrd_sidebar
@@ -11,7 +11,8 @@ folder: drogue_can_bpwrd
 
 ### 1.0 Images
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img1.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board" max-width="400"%}{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img2.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board with D-SUB converter cable" max-width="400"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img1.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board" max-width="400"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img2.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board with D-SUB converter cable" max-width="400"%}
 
 
 
@@ -48,6 +49,7 @@ The CAN-BPWRD development board is [*compatible with Cyphal/CAN*](drogue_can_bpw
 
 
 - STM32G491CCU6 MCU (up to 168 MHz)
+- 3.3V logic level on I/O pins
 - 8 MHz HSE external oscillator
 - 2x MCP2542FD CAN FD transceivers (up to 8Mbps, 1Mbps recommended)
 - Optional 120 ohm termination on each CAN bus
@@ -62,5 +64,10 @@ The CAN-BPWRD development board is [*compatible with Cyphal/CAN*](drogue_can_bpw
 
 ### 3.1 Physical Specifications
 
+The devlopment board weights approximetely 12g.
+
+It measures 53.0mm in width, and 43.8mm in height - when looking at the board top down.
+
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_dimensions.jpg" alt="CAN-BPWRD Development Board with annotated dimensions" caption="CAN-BPWRD Development Board with annotated dimensions" max-width="400"%}
 
 {% include links.html %}
