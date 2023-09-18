@@ -13,7 +13,7 @@ folder: drogue_can_bpwrd
 
 The CAN-BPWRD development board has 2.54mm pitch male pin headers which are compatible with most standard off-the-shelf 'DuPont' type jumper/breadboard wires.
 
-{% include tip.html content="If you plan to make your own jumper wires, we recommend the Amphenol MinitoPV series receptacles with 'ultra high' spring force. These provide a strong, secure fitment." %}
+{% include tip.html content="If you plan to make your own jumper wires, we recommend the Amphenol MinitoPV series receptacles with 'ultra high' spring force and the respective MinitoPV housings. These provide a strong, secure fitment." %}
 
 The pins on the CAN-BPWRD board can be separated into 3 categories:
 
@@ -29,13 +29,24 @@ The CAN-BPWRD development board has 4 pairs of CAN bus Vin and GND pins exposed;
 
 The two pairs within a bus are directly connected to one another, providing you the means to pass through the bus voltage to other devices in the network.
 
-By making use of diodes, the two pairs in CAN bus 1 are completely independent from the two pairs in CAN bus 2. This means you are able to connect two different power supplies - even at different voltages - to the board. The development board will take power from either input, providing redundancy if one was to fail.
-
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_VIN.jpg" alt="Annotated Pinout of CAN Vin Pins" caption="Annotated Pinout of CAN Vin Pins with Representative Schematic" max-width="1000"%}
+By making use of diodes, the two pairs in CAN bus 1 are independent from the two pairs in CAN bus 2. This means you are able to connect two different power supplies - even at different voltages - to the board. The development board will take power from either input, providing redundancy if one was to fail.
 
 {% include warning.html content="Take care to not connect 2 different power supplies to the same CAN bus" %}
 
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_VIN.jpg" alt="Annotated Pinout of CAN Vin Pins" caption="Annotated Pinout of CAN Vin Pins with Representative Schematic" max-width="1000"%}
+
+The CAN bus Vin pins are designed to expect a 24V input - as per the [UCANPHY specification](drogue_can_bpwrd_cyphal.html). However, the acceptable range has been widened to allow ~6.5V* to 40V.
+
+{% include important.html content="*Inputs as low as 6.5V have been shown to work in testing, however they may become unstable depending on peripheral current draw due to the increased voltage drop across some components" %}
+
+If you would like to power the CAN-BPWRD development board from a lower voltage supply, please see the [low voltage documentation page](drogue_can_bpwrd_low_voltage.html) for the available options.
+
 #### 2.2 CAN Termination Jumper Pins
+
+Each CAN bus has pair of pins labeled 'TERM', these pins are intended to be optionally shorted together using a jumper to add a termination resistor across the CAN data lines.
+
+See the [CAN-BPWRD CAN documentation page](drogue_can_bpwrd_can.html) for more information on this function.
+
 #### 2.3 5V and 3V3 Enable Jumper Pins
 #### 2.4 General use 5V, 3.3V and GND Pins
 
