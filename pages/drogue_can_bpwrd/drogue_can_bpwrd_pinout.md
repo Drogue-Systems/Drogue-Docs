@@ -33,7 +33,7 @@ By making use of diodes, the two pairs in CAN bus 1 are independent from the two
 
 {% include warning.html content="Take care to not connect 2 different power supplies to the same CAN bus" %}
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_VIN.jpg" alt="Annotated Pinout of CAN Vin Pins" caption="Annotated Pinout of CAN Vin Pins with Representative Schematic" max-width="1000"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_VIN.jpg" alt="CAN-BPWRD Image with Annotated Pinout of CAN Vin Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN Vin Pins with Representative Schematic" max-width="800"%}
 
 The CAN bus Vin pins are designed to expect a 24V input - as per the [UCANPHY specification](drogue_can_bpwrd_cyphal.html). However, the acceptable range has been widened to allow ~6.5V* to 40V.
 
@@ -44,6 +44,8 @@ If you would like to power the CAN-BPWRD development board from a lower voltage 
 #### 2.2 CAN Termination Jumper Pins
 
 Each CAN bus has pair of pins labeled 'TERM', these pins are intended to be optionally shorted together using a jumper to add a termination resistor across the CAN data lines.
+
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_CAN_term.jpg" alt="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" max-width="1000"%}
 
 See the [CAN-BPWRD CAN documentation page](drogue_can_bpwrd_can.html) for more information on this function.
 
