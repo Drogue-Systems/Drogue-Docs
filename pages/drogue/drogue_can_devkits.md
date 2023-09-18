@@ -13,6 +13,6 @@ Drogue Systems is developing a range of CAN enabled devlopment boards and kits, 
 
 ### 1.0 Links
 
-[CAN-BPWRD | Dual CAN FD Development Board](drogue_can_bpwrd.html)
+[CAN-BPWRD - Dual CAN FD Development Board](drogue_can_bpwrd.html)
 
 {% include links.html %}

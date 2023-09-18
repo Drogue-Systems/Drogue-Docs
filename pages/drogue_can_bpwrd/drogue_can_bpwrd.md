@@ -28,7 +28,7 @@ With a focus on CAN development, the Drogue Systems CAN-BPWRD boasts dual CAN FD
 Each CAN interface has an optional 120 ohm termination resistor enabled by a pin jumper, and has two complete sets of pins (Vin, GND, CAN HIGH, CAN LOW) - removing the need for any splitters or large stubs to be added to your network. The Vin pins accept a wide bus voltage range: ~6.5V to 40V, ensuring the board is able to operate even with considerable deviations from the expected 24V nominal.
 
 
-{% include note.html content="The Vin pins can be bypassed to supply lower voltages, see [*the low voltage documentation page*](drogue_can_bpwrd_low_voltage.html)" %}
+{% include note.html content="The Vin pins can be bypassed, allowing you to supply the board with lower voltages, see [*the low voltage documentation page*](drogue_can_bpwrd_low_voltage.html)" %}
 
 
 Designed to be fully compliant with the [*UCANPHY specification*](drogue_can_bpwrd_cyphal.html), the two CAN interfaces are completely independent from one another; each Vin acts as a redundant power supply to the development board with reverse current protection. A hard - infinite duration - current limit (1.2A) in the voltage regulator protects the rest of your CAN network from accidental shorts. These features come together to give you the ability to develop and prototype fully redundant, safety critical CAN nodes and software.
