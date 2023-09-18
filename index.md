@@ -29,7 +29,7 @@ At the top of the page you will find the top navigation bar. The top bar contain
 
 On the left of each page in the docs you will find the navigation side bar. The side bar content will change depending on which page of the docs you are currently on to show relevant options, however the 'Home' tab will alway be present to easily return to this page.
 
-{% include tip.html content="If you cannot see the side navigation bar, check the **Nav toggle** in the top bar. On mobile the side bar will only be visible by opening the menu" %}
+{% include tip.html content="If you cannot see the side navigation bar, check the **Nav toggle** in the top bar. On mobile devices the side bar may be located at the top of the page" %}
 
 From this page - the Home page - the side bar will allow you to navigate to any of the Drogue Systems products. Once you have navigated to a product, the side bar will show links to relevant documentation explaining the setup, operation, etc. of that product.
 
