@@ -11,13 +11,14 @@ folder: drogue_can_bpwrd
 
 ### 1.0 Images
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img1.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board" max-width="400"%}
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img2.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board with D-SUB converter cable" max-width="400"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img1.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board" max-width="600"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img2.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board with D-SUB converter cable" max-width="600"%}
 
-
+<div><br></div>
 
 ### 2.0 Description
 
+<div><br></div>
 
 The Drogue Systems CAN-BPWRD is a development board based on the STM32G491 microcontroller unit (MCU). It has 21 I/O pins, enabling the use of UART, SPI, I2C, Timers, PWM, ADC, and of course: CAN.
 
@@ -43,10 +44,12 @@ Designed to be fully compliant with the [*UCANPHY specification*](drogue_can_bpw
 The CAN-BPWRD development board is [*compatible with Cyphal/CAN*](drogue_can_bpwrd_cyphal.html) and can be [*programmed in multiple frameworks*](drogue_can_bpwrd_programming.html) (STM32Cube HAL, Arduino, libopencm3, CMSIS) depending on your preference.
 
 
+<div><br><br></div>
 
 
 ### 3.0 Basic Specifications
 
+<div><br></div>
 
 - STM32G491CCU6 MCU (up to 168 MHz)
 - 3.3V logic level on I/O pins
@@ -61,13 +64,16 @@ The CAN-BPWRD development board is [*compatible with Cyphal/CAN*](drogue_can_bpw
 - Program controllable LED
 
 
+<div><br><br></div>
 
 ### 3.1 Physical Specifications
 
+<div><br></div>
+
 The development board weights approximately 12g.
 
-It measures 53.0mm in width, and 43.8mm in height - when looking at the board top down.
+It measures 53.1mm in width, and 43.8mm in height - when looking at the board top down.
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_dimensions.jpg" alt="CAN-BPWRD Development Board with annotated dimensions" caption="CAN-BPWRD Development Board with annotated dimensions" max-width="400"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_dimensions.jpg" alt="CAN-BPWRD Development Board with annotated dimensions" caption="CAN-BPWRD Development Board with annotated dimensions" max-width="600"%}
 
 {% include links.html %}
