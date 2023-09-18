@@ -17,7 +17,7 @@ The Drogue Systems documentations is written by Drogue Systems Limited. It cover
 
 
 
-This documentation is a static site generated using Jekyll and the [documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/index.html) made by its auther; Tom Johnson.
+This documentation is a static site generated using Jekyll and the [documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/index.html) made by its author; Tom Johnson.
 
 
 {% include links.html %}

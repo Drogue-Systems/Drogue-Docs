@@ -19,17 +19,17 @@ This section contains a brief outline on things to look for in these docs.
 
 At the top of the page you will find the top navigation bar. The top bar contains:
 
-- **Nav toggle:** Use this to hide the navigation side bar.
+- **Navigation toggle:** Use this to hide the navigation side bar.
 - **Main Website Link:** This will take you to <a alt='drogue.co.uk' href='https://drogue.co.uk'> ***drogue.co.uk*** </a>
-- **Github Link:** This will take you to the Drogue Systems Github home page where all of the Drogue public reposetories and code examples can be found.
+- **GitHub Link:** This will take you to the Drogue Systems GitHub home page where all of the Drogue public repositories and code examples can be found.
 - **Feedback Button:** Use this button to send an email to Drogue Systems with any feedback about the documentation site.
 
 
 ### 2. Side Navigation Bar
 
-On the left of each page in the docs you will find the navigation side bar. The side bar content will change depending on which page of the docs you are currently on to show relevant options, however the 'Home' tab will alway be present to easily return to this page.
+On the left of each page in the docs you will find the navigation side bar. The side bar content will change depending on which page of the docs you are currently on to show relevant options, however the 'Home' tab will always be present to easily return to this page.
 
-{% include tip.html content="If you cannot see the side navigation bar, check the **Nav toggle** in the top bar. On mobile devices the side bar may be located at the top of the page" %}
+{% include tip.html content="If you cannot see the side navigation bar, check the **Navigation toggle** in the top bar. On mobile devices the side bar may be located at the top of the page" %}
 
 From this page - the Home page - the side bar will allow you to navigate to any of the Drogue Systems products. Once you have navigated to a product, the side bar will show links to relevant documentation explaining the setup, operation, etc. of that product.
 
