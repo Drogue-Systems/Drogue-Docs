@@ -76,7 +76,7 @@ When bypassing the 5V ragulator to provide a 5V supply directly, the below limit
 If only a 3.3V supply is available, then the 3.3V regulator can also be bypassed. By doing so, the CAN tranceivers will be completely unpowered, but the rest of the board should remain operational.
 
 <div><br></div>
-{% include warning.html content="If, for some reason, a separate 5V - or higher - supply is also available, the the CAN transceivers can be powered using this supply, either by following the steps from section 2.0 of this page, or by leaving the 5V-EN jumper in place and supplying up to 40V to Vin. This will result in the majority of the board being powered by the external 3.3V supply, and the CAN tranceivers powered by the higher voltage input." %}
+{% include note.html content="If, for some reason, a separate 5V - or higher - supply is also available, the the CAN transceivers can be powered using this supply, either by following the steps from section 2.0 of this page, or by leaving the 5V-EN jumper in place and supplying up to 40V to Vin. This will result in the majority of the board being powered by the external 3.3V supply, and the CAN tranceivers powered by the higher voltage input." %}
 <div><br></div>
 
 To bypass the 3.3V regulator, the 3V3-EN jumper pin should be removed, and a +3.3V input provided to then XXX pin, as shown below. Ground can be connect to any GND pin on the board.
