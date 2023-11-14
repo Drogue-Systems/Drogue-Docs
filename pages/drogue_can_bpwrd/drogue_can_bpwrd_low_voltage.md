@@ -1,6 +1,6 @@
 ---
 title: CAN-BPWRD | Low Input Voltage Operation
-keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Devlopment Board, Dev Board
+keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Development Board, Dev Board
 last_updated: 09/11/23
 tags: [CAN]
 summary: "How to use the CAN-BPWRD if the available voltage is lower than required for the Vin pins"
