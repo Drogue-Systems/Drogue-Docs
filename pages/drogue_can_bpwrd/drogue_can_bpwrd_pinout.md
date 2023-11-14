@@ -59,7 +59,7 @@ The CAN bus Vin pins are designed to expect a 24V input - as per the [UCANPHY sp
 
 Each CAN bus has pair of pins labeled 'TERM', these pins are intended to be optionally shorted together using a jumper to add a termination resistor across the CAN data lines.
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_term.jpg" alt="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" max-width="500"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_term.jpg" alt="CAN-BPWRD Image with Highlighted Pinout of CAN 'TERM' Pins" caption="CAN-BPWRD Image with Annotated Pinout of CAN 'TERM' Pins" max-width="500"%}
 
 See the [CAN-BPWRD CAN documentation page](drogue_can_bpwrd_can.html) for more information on this function.
 
