@@ -1,7 +1,7 @@
 ---
 title: CAN-BPWRD | Pinout
 keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Development Board, Dev Board
-last_updated: 09/11/23
+last_updated: 26/11/23
 tags: [CAN]
 summary: "Explaining the pinout of the CAN-BPWRD board"
 sidebar: drogue_can_bpwrd_sidebar
@@ -10,6 +10,9 @@ folder: drogue_can_bpwrd
 ---
 
 <div><br></div>
+{% include important.html content="The CAN-BPWRD Docs are still under development, so may be subject to change." %}
+<div><br></div>
+
 
 ### 1.0 Pinout Overview
 

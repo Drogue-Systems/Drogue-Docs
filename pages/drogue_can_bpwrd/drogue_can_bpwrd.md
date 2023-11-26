@@ -1,7 +1,7 @@
 ---
 title: CAN-BPWRD | Dual CAN FD Development Board
 keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Development Board, Dev Board
-last_updated: 18/09/23
+last_updated: 26/11/23
 tags: [CAN]
 summary: "This page contains an overview of the CAN-BPWRD Development Board."
 sidebar: drogue_can_bpwrd_sidebar
@@ -9,9 +9,13 @@ permalink: drogue_can_bpwrd.html
 folder: drogue_can_bpwrd
 ---
 
+<div><br></div>
+{% include important.html content="The CAN-BPWRD Docs are still under development, so may be subject to change." %}
+<div><br></div>
+
 ### 1.0 Images
 
-{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img2.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board with D-SUB converter cable" max-width="600"%}
+{% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img2.jpg" alt="Image of the CAN-BPWRD-V0.2 Development Board" caption="Image of the CAN-BPWRD-V0.2 Board with D-SUB converter cable" max-width="600"%}
 {% include image.html file="drogue_can_bpwrd/CAN-BPWRD_img1.jpg" alt="Image of the CAN-BPWRD-V0.1 Development Board" caption="Image of the CAN-BPWRD-V0.1 Board" max-width="600"%}
 
 

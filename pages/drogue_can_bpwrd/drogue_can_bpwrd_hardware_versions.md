@@ -1,7 +1,7 @@
 ---
 title: CAN-BPWRD | Hardware Versions
 keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Development Board, Dev Board
-last_updated: 18/09/23
+last_updated: 26/11/23
 tags: [CAN]
 summary: "Comparing the available hardware versions of the CAN-BPWRD board"
 sidebar: drogue_can_bpwrd_sidebar
@@ -10,6 +10,9 @@ folder: drogue_can_bpwrd
 ---
 
 <div><br></div>
+{% include important.html content="The CAN-BPWRD Docs are still under development, so may be subject to change." %}
+<div><br></div>
+
 
 ### 1.0 Note
 

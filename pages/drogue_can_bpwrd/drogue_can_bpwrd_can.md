@@ -1,13 +1,17 @@
 ---
 title: CAN-BPWRD | CAN
 keywords: Drogue, Drogue Systems, CAN, CAN FD, Development, Board, Kit, Development Board, Dev Board
-last_updated: 14/11/23
+last_updated: 26/11/23
 tags: [CAN]
 summary: "An overview of the CAN capabilities of the CAN-BPWRD development board"
 sidebar: drogue_can_bpwrd_sidebar
 permalink: drogue_can_bpwrd_can.html
 folder: drogue_can_bpwrd
 ---
+
+<div><br></div>
+{% include important.html content="The CAN-BPWRD Docs are still under development, so may be subject to change." %}
+<div><br></div>
 
 
 ### 1.0 Overview
